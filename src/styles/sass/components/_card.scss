@@ -1,0 +1,18 @@
+@use '../abstract/colors' as *;
+
+.card {
+    max-width: 40rem;
+    background: $dark-desaturated-blue;
+    margin: 1em;
+    border-radius: .7em;
+
+    .wrapper {
+        width: 85%;
+        margin: auto;
+        padding-bottom: 1em;
+    }
+
+    .card__img {
+        img {}
+    }
+}

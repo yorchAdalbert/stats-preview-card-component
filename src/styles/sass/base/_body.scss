@@ -1,0 +1,15 @@
+@use '../abstract/colors' as *;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-color: $dark-blue;
+
+    font-size: .9375rem;
+    line-height: 1.4;
+    text-align: center;
+    color: $medium-trans-white;
+}

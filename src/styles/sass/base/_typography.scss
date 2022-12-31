@@ -1,0 +1,47 @@
+@use '../abstract/colors' as *;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+h2,
+h3,
+span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: $white;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.card__content {
+    h2 {
+        padding-top: 2em;
+
+    }
+
+    span {
+        color: $soft-violet;
+    }
+
+    p {
+        padding: 1em 0 2em 0;
+    }
+}
+
+.card__stats {
+    .card__stats__info {
+        padding-bottom: 1em;
+
+        h3 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            text-transform: uppercase;
+            font-size: .7rem;
+        }
+    }
+}
