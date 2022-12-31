@@ -1,0 +1,16 @@
+@media (min-width: 670px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+        grid-template-areas: "card__content card__img";
+
+        .card__img {
+            grid-area: card__img;
+
+            img {
+                border-top-right-radius: .7em;
+                border-bottom-right-radius: .7em;
+            }
+        }
+    }
+}

@@ -70,8 +70,22 @@ p {
   font-size: 0.7rem;
 }
 
+@media (min-width: 670px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    grid-template-areas: "card__content card__img";
+  }
+  .card .card__img {
+    grid-area: card__img;
+  }
+  .card .card__img img {
+    border-top-right-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+  }
+}
 .card {
-  max-width: 40rem;
+  max-width: 70rem;
   background: hsl(244deg, 38%, 16%);
   margin: 1em;
   border-radius: 0.7em;
@@ -80,6 +94,11 @@ p {
   width: 85%;
   margin: auto;
   padding-bottom: 1em;
+}
+.card .card__img img {
+  min-height: 100%;
+  border-top-right-radius: 0.7em;
+  border-top-left-radius: 0.7em;
 }
 
 /*# sourceMappingURL=main.css.map */

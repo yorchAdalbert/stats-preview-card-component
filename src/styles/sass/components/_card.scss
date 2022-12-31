@@ -1,7 +1,8 @@
 @use '../abstract/colors' as *;
 
 .card {
-    max-width: 40rem;
+
+    max-width: 70rem;
     background: $dark-desaturated-blue;
     margin: 1em;
     border-radius: .7em;
@@ -13,6 +14,10 @@
     }
 
     .card__img {
-        img {}
+        img {
+            min-height: 100%;
+            border-top-right-radius: .7em;
+            border-top-left-radius: .7em;
+        }
     }
 }
