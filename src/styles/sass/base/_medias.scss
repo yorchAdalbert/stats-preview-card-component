@@ -1,4 +1,8 @@
 @media (min-width: 670px) {
+    body {
+        text-align: left;
+    }
+
     .card {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
@@ -6,10 +10,22 @@
 
         .card__img {
             grid-area: card__img;
+            border-bottom-right-radius: .5em;
 
             img {
                 border-top-right-radius: .7em;
                 border-bottom-right-radius: .7em;
+            }
+
+        }
+
+        .card__stats {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1.7em;
+
+            .card__stats__info {
+                width: 23%;
             }
         }
     }
