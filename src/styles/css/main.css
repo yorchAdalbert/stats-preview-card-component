@@ -50,14 +50,14 @@ p {
 
 .card__content h2 {
   padding-top: 2rem;
-  font-size: clamp(1.4rem, 5vw, 2rem);
+  font-size: clamp(1.4rem, 5vw, 1.6rem);
 }
 .card__content span {
-  font-size: clamp(1.4rem, 5vw, 2rem);
+  font-size: clamp(1.4rem, 5vw, 1.6rem);
   color: hsl(277deg, 64%, 61%);
 }
 .card__content p {
-  font-size: clamp(1rem, 5vw, 1.1rem);
+  font-size: 0.8rem;
   padding: 1em 0 2em 0;
 }
 
@@ -65,11 +65,11 @@ p {
   padding-bottom: 1em;
 }
 .card__stats .card__stats__info h3 {
-  font-size: clamp(1.1rem, 5vw, 1.4rem);
+  font-size: 1rem;
 }
 .card__stats .card__stats__info p {
   text-transform: uppercase;
-  font-size: clamp(0.7rem, 5vw, 0.9rem);
+  font-size: 0.7rem;
 }
 
 @media (min-width: 670px) {
@@ -92,16 +92,16 @@ p {
   .card .card__stats {
     display: flex;
     justify-content: space-between;
-    padding-top: 1.7em;
+    padding-top: 1em;
   }
   .card .card__stats .card__stats__info {
     width: 23%;
   }
 }
 .card {
-  max-width: 70rem;
+  max-width: 55rem;
   background: hsl(244deg, 38%, 16%);
-  margin: 1em;
+  margin: 3em 1.5em;
   border-radius: 0.5em;
 }
 .card .wrapper {
@@ -110,7 +110,7 @@ p {
   padding-bottom: 1em;
 }
 .card .card__img {
-  background-color: hsl(277deg, 64%, 61%);
+  background-color: hsl(277deg, 82%, 30%);
   border-top-right-radius: 0.5em;
   border-top-left-radius: 0.5em;
 }

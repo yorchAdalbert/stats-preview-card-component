@@ -18,17 +18,16 @@ p {
 .card__content {
     h2 {
         padding-top: 2rem;
-        font-size: clamp(1.4rem, 5vw, 2rem);
+        font-size: clamp(1.4rem, 5vw, 1.6rem);
     }
 
     span {
-        font-size: clamp(1.4rem, 5vw, 2rem);
-
+        font-size: clamp(1.4rem, 5vw, 1.6rem);
         color: $soft-violet;
     }
 
     p {
-        font-size: clamp(1rem, 5vw, 1.1rem);
+        font-size: .8rem;
         padding: 1em 0 2em 0;
     }
 }
@@ -38,12 +37,12 @@ p {
         padding-bottom: 1em;
 
         h3 {
-            font-size: clamp(1.1rem, 5vw, 1.4rem);
+            font-size: 1rem;
         }
 
         p {
             text-transform: uppercase;
-            font-size: clamp(.7rem, 5vw, .9rem);
+            font-size: .7rem;
         }
     }
 }

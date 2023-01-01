@@ -1,9 +1,9 @@
 @use '../abstract/colors' as *;
 
 .card {
-    max-width: 70rem;
+    max-width: 55rem;
     background: $dark-desaturated-blue;
-    margin: 1em;
+    margin: 3em 1.5em;
     border-radius: .5em;
 
     .wrapper {
@@ -13,7 +13,7 @@
     }
 
     .card__img {
-        background-color: $soft-violet;
+        background-color: $dark-violet;
         border-top-right-radius: .5em;
         border-top-left-radius: .5em;
 
