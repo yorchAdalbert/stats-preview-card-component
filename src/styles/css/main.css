@@ -105,13 +105,14 @@ p {
   margin: auto;
 }
 .card .card__img {
-  background-color: hsl(277deg, 82%, 30%);
+  background-color: hsl(277deg, 64%, 61%);
   border-top-right-radius: 0.5em;
   border-top-left-radius: 0.5em;
 }
 .card .card__img img {
   min-height: 100%;
-  opacity: 0.4;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
   border-top-right-radius: 0.5em;
   border-top-left-radius: 0.5em;
 }

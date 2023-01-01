@@ -12,13 +12,14 @@
     }
 
     .card__img {
-        background-color: $dark-violet;
+        background-color: $soft-violet;
         border-top-right-radius: .5em;
         border-top-left-radius: .5em;
 
         img {
             min-height: 100%;
-            opacity: .4;
+            opacity: .8;
+            mix-blend-mode: multiply;
             border-top-right-radius: .5em;
             border-top-left-radius: .5em;
         }
