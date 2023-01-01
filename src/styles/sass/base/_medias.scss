@@ -20,13 +20,8 @@
         }
 
         .card__stats {
-            display: flex;
-            justify-content: space-between;
+            grid-template-columns: repeat(3, 1fr);
             padding-top: 1em;
-
-            .card__stats__info {
-                width: 23%;
-            }
         }
     }
 }

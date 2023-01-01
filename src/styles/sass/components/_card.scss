@@ -9,7 +9,6 @@
     .wrapper {
         width: min(85%, 70%);
         margin: auto;
-        padding-bottom: 1em;
     }
 
     .card__img {
@@ -23,5 +22,11 @@
             border-top-right-radius: .5em;
             border-top-left-radius: .5em;
         }
+    }
+
+    .card__stats {
+        display: grid;
+        gap: 1rem;
+        margin-bottom: 1.1rem;
     }
 }

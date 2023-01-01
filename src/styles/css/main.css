@@ -90,12 +90,8 @@ p {
     border-bottom-right-radius: 0.7em;
   }
   .card .card__stats {
-    display: flex;
-    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
     padding-top: 1em;
-  }
-  .card .card__stats .card__stats__info {
-    width: 23%;
   }
 }
 .card {
@@ -107,7 +103,6 @@ p {
 .card .wrapper {
   width: 70%;
   margin: auto;
-  padding-bottom: 1em;
 }
 .card .card__img {
   background-color: hsl(277deg, 82%, 30%);
@@ -119,6 +114,11 @@ p {
   opacity: 0.4;
   border-top-right-radius: 0.5em;
   border-top-left-radius: 0.5em;
+}
+.card .card__stats {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
